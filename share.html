@@ -1,0 +1,31 @@
+<html>
+<head>
+	<title>Your Website Title</title>
+    <!-- You can use Open Graph tags to customize link previews.
+    Learn more: https://developers.facebook.com/docs/sharing/webmasters -->
+	<meta property="og:url"           content="http://jacobhsu.github.io/facebook/share.html" />
+	<meta property="og:type"          content="website" />
+	<meta property="og:title"         content="Your Website Title" />
+	<meta property="og:description"   content="Your description" />
+	<meta property="og:image"         content="https://upload.wikimedia.org/wikipedia/commons/0/0e/Spiderweb_BB_jeh.jpg" />
+</head>
+<body>
+  share og
+	<!-- Load Facebook SDK for JavaScript -->
+  <div id="fb-root"></div>
+  <script>(function(d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s); js.id = id;
+    js.src = "//connect.facebook.net/zh_TW/sdk.js#xfbml=1&version=v2.6&appId=593981407422347";
+    fjs.parentNode.insertBefore(js, fjs);
+  }(document, 'script', 'facebook-jssdk'));</script>
+
+	<!-- Your share button code -->
+	<div class="fb-share-button"
+		data-href="http://jacobhsu.github.io/facebook/share.html"
+		data-layout="button_count">
+	</div>
+
+</body>
+</html>
